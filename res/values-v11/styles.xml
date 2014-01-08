@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+
+        <!-- <item name="android:windowActionBarOverlay">true</item> -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/press</item>
+    </style>
+
+<!--     <style name="activated" parent="CustomActionBarTheme"> -->
+<!--         <item name="android:background">?android:attr/activatedBackgroundIndicator</item> -->
+<!--     </style> -->
+
+</resources>
